@@ -2,8 +2,10 @@
   "author": "Renaldo Mateus <renaldomateus77.dev@gmail.com>",
   "description": "*Cloudinary Uploader* is an npm package that allows you to easily upload and delete images using Cloudinary's cloud-based media management services.",
   "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./index.d.ts",
+  "types": ".dist/index.d.ts",
+  "files": [
+    "./dist"
+  ],
   "keywords": [
     "npm package",
     "upload images",
@@ -28,11 +30,8 @@
     "cloud-based solution"
   ],
   "scripts": {
-    "start:dev": "tsx src/main.ts",
-    "build:version": "tsup ./index.ts --format esm,cjs",
-    "build:types": "tsc --emitDeclarationOnly --declaration",
-    "build": "npm run build:version && npm run build:types",
-    "prepare": "npm run build"
+    "build": "npx tsc",
+    "prepublish": "npm run build"
   },
   "dependencies": {
     "axios": "^1.3.4",
@@ -40,20 +39,13 @@
   },
   "devDependencies": {
     "@types/sha1": "^1.1.3",
-    "tsup": "^6.7.0",
     "typescript": "^5.0.2"
   },
   "name": "@renaldodev/cloudinary",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/renaldodev/cloudinary.git"
-  },
-  "exports": {
-    ".": {
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js"
-    }
   },
   "license": "ISC",
   "bugs": {
