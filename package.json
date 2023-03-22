@@ -42,7 +42,7 @@
     "typescript": "^5.0.2"
   },
   "name": "@renaldodev/cloudinary",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/renaldodev/cloudinary.git"
