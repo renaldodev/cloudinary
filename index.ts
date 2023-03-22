@@ -45,7 +45,7 @@ type CloudinaryUploadResponse = {
   ];
 };
 
-export class Cloudinary {
+export default class Cloudinary {
   private api: Axios;
   private settings: Settings;
 
