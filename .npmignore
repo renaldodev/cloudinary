@@ -1,0 +1,6 @@
+/src
+.github
+/node_modules
+.changeset
+vite.config.ts
+package-lock.json
