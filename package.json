@@ -2,7 +2,7 @@
   "name": "@renaldodev/cloudinary",
   "author": "Renaldo Mateus <renaldomateus77.dev@gmail.com>",
   "description": "*Cloudinary Uploader* is an npm package that allows you to easily upload and delete images using Cloudinary's cloud-based media management services.",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
