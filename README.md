@@ -50,7 +50,7 @@ Whether you're building a **web or mobile** app, this package can help you save 
   - AngularJS
 
 - Mobile
-  - React CLI
+  - React Native CLI
   - Expo
 
 ### From `npm`
